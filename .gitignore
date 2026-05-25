@@ -1,12 +1,27 @@
-# 模型文件不上传，太大
+# Model files (too large for git)
 *.onnx
 *.rknn
 *.bin
+
+# Android native libraries (download separately)
+*.so
 
 # Python
 __pycache__/
 *.pyc
 .venv/
+
+# Android build
+android/.gradle/
+android/build/
+android/app/build/
+android/app/.cxx/
+android/app/.externalNativeBuild/
+android/local.properties
+
+# Android Studio
+*.iml
+.idea/
 
 # OS
 .DS_Store
