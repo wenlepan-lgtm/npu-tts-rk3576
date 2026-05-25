@@ -1,0 +1,13 @@
+# 模型文件不上传，太大
+*.onnx
+*.rknn
+*.bin
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
